@@ -38,40 +38,25 @@ publishdir = "../"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Szop Precz"
+        brand = "SzopPrecz"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
-
-
-    [params.portfolio]
-        # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
-        # For more informtion take a look at the README.
-        title = "Portfolio"
-
-        [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttontext = "Close"
+        name = "SzopPrecz"
+        subtitle = "Stop wondering if shops are opened this Sunday!"
 
 
     [params.about]
         title = "About"
-        # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "“Szop Precz” (eng. Racoon) is simple yet useful application for checking shops availability in Poland. Starting from March 2018, shops will be closed on some Sundays (enforced by law), which leaves a burden of remembering the schedule. "
+        right = "Enter “Szop Precz” — wether you’re a resident or just visiting Poland, it’s an easy way to check if shops are opened. You can easily check shops availability for current day and schedule notification for upcoming shops close downs."
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
+            text = "AppStore"
+            link = "//itunes.apple.com/us/app/szop-precz/id1348257936?ls=1&mt=8"
+            icon = "fab fa-apple"
 
 
     [params.contact]
@@ -117,5 +102,5 @@ publishdir = "../"
 
 
         [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+            title = "About Author"
+            text = "SzopPrecz is created by [Aleksander Zubala](//zubala.com)"

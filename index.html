@@ -4,8 +4,8 @@
         <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="My awesome description">
-<meta name="author" content="Mr. Hugo">
+<meta name="description" content="Mobile App for checking shops availability in Poland">
+<meta name="author" content="Szop Precz">
 <meta name="generator" content="Hugo 0.18.1" />
 <title>Szop Precz</title>
 <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -38,7 +38,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Mr. Hugo&#39;s Portfolio</a>
+            <a class="navbar-brand" href="#page-top">SzopPrecz</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,13 +47,13 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio"></a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">About</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Feedback</a>
                 </li>
             </ul>
         </div>
@@ -70,30 +70,14 @@
             <div class="col-lg-12">
                 <img class="img-responsive" src="img/profile.png" alt="">
                 <div class="intro-text">
-                    <span class="name">Mr. Hugo</span>
-                    <hr class="star-light">
-                    <span class="skills">Blogger - Programmer - Gopher</span>
+                    <span class="name">SzopPrecz</span>                    
+                    <span class="skills">Stop wondering if shops are opened this Sunday!</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
-        <!-- Portfolio Grid Section -->
-<section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
-        <div class="row">
-            
-        </div>
-    </div>
-</section>
-
+        
         <!-- About Section -->
 <section class="success" id="about">
     <div class="container">
@@ -105,14 +89,14 @@
         </div>
     <div class="row">
         <div class="col-lg-4 col-lg-offset-2">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p>“Szop Precz” (eng. Racoon) is simple yet useful application for checking shops availability in Poland. Starting from March 2018, shops will be closed on some Sundays (enforced by law), which leaves a burden of remembering the schedule.</p>
         </div>
             <div class="col-lg-4">
-                <p>Whether you&rsquo;re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>Enter “Szop Precz” — wether you’re a resident or just visiting Poland, it’s an easy way to check if shops are opened. You can easily check shops availability for current day and schedule notification for upcoming shops close downs.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download theme
+                <a href="//itunes.apple.com/us/app/szop-precz/id1348257936?ls=1&amp;mt=8" class="btn btn-lg btn-outline">
+                    <i class="fa fa-fab fa-apple"></i> AppStore
                 </a>
             </div>
         </div>
@@ -124,13 +108,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Contact</h2>
+                <h2>Feedback</h2>
                 <hr class="star-primary">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form  action="//formspree.io/your@email.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+                <form  action="//formspree.io/szop-precz@zubala.com" method="POST" name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
@@ -145,21 +129,14 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
                     <div>
                         <input type="hidden"  name="_subject" value="New submission!">
                         <input type="text" name="_gotcha" style="display:none" />
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Message</label>
-                            <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <label>Feedback</label>
+                            <textarea rows="5" name="message" class="form-control" placeholder="Feedback" id="message" required data-validation-required-message="Please provide your feedback about the app"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -167,7 +144,7 @@
                     <div id="success"></div>
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            <button type="submit" class="btn btn-primary btn-lg">Send</button>
                         </div>
                     </div>
                 </form>
@@ -189,10 +166,10 @@
                         <p>
                             
                                 
-                                3481 Melrose Place
+                                Warsaw
                             
                                 <br>
-                                Beverly Hills, CA 90210
+                                Poland
                             
                         </p>
                     
@@ -202,18 +179,18 @@
                     <ul class="list-inline">
                         
                             <li>
-                                <a href="//github.com/spf13/hugo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a href="//facebook.com/SzopPrecz" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                         
                             <li>
-                                <a href="//stackoverflow.com/questions/tagged/hugo" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                                <a href="//twitter.com/SzopPrecz" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                         
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About Freelancer</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="//startbootstrap.com">Start Bootstrap</a>.</p>
+                    <h3>About Author</h3>
+                    <p>SzopPrecz is created by <a href="//zubala.com">Aleksander Zubala</a></p>
                 </div>
             </div>
         </div>
