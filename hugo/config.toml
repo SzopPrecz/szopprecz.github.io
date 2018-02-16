@@ -10,7 +10,6 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "../"
 
-
 [params]
 
     # You can use Markdown syntax for urls [text](//url.to/source) for
@@ -18,8 +17,8 @@ publishdir = "../"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Szop Precz"
+    description = "Mobile App for checking shops availability in Poland"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -32,14 +31,14 @@ publishdir = "../"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "szop-precz@zubala.com"
 
     # Custom assets
 	custom_css = []
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Szop Precz"
 
 
     [params.header]
@@ -76,7 +75,7 @@ publishdir = "../"
 
 
     [params.contact]
-        title = "Contact"
+        title = "Feedback"
 
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
@@ -87,13 +86,9 @@ publishdir = "../"
             text = "Email Address"
             error = "Please enter your email address."
 
-        [params.contact.form.phone]
-            text = "Phone Number"
-            error = "Please enter your phone number."
-
         [params.contact.form.message]
-            text = "Message"
-            error = "Please enter a message."
+            text = "Feedback"
+            error = "Please provide your feedback about the app"
 
         [params.contact.form.button]
             text = "Send"
@@ -105,7 +100,7 @@ publishdir = "../"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["Warsaw", "Poland"]
 
         [params.footer.social]
             title = "Around the web"
@@ -113,12 +108,12 @@ publishdir = "../"
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                icon = "fa-facebook"
+                link = "//facebook.com/SzopPrecz"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-twitter"
+                link=  "//twitter.com/SzopPrecz"
 
 
         [params.footer.credits]
