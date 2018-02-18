@@ -4,7 +4,7 @@ languageCode = "en-US"
 builddrafts = false
 canonifyurls = false
 author = "Aleksander Zubala"
-title = "Szop Precz"
+title = "SzopPrecz"
 theme = "hugo-freelancer-theme"
 contentdir = "content"
 layoutdir = "layouts"
@@ -17,7 +17,7 @@ publishdir = "../"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Szop Precz"
+    name = "SzopPrecz"
     description = "Mobile App for checking shops availability in Poland"
 
     # Since this template is static, the contact form uses www.formspree.io as a

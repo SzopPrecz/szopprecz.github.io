@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Szop Precz</title>
+    <title>SzopPrecz</title>
     <link>http://szop-precz.zubala.com/index.xml</link>
-    <description>Recent content on Szop Precz</description>
+    <description>Recent content on SzopPrecz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <atom:link href="http://szop-precz.zubala.com/index.xml" rel="self" type="application/rss+xml" />

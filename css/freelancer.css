@@ -96,10 +96,9 @@ header img {
 
 header .intro-text .name {
     display: block;    
-    font-family: "HelveticaNeue-Bold",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue Bold",Helvetica,Arial,sans-serif;
     font-size: 3em;
-    letter-spacing: -3px;
-    /*font-weight: bold;*/
+    letter-spacing: -3px;    
 }
 
 header .intro-text .skills {
@@ -114,7 +113,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 8em;
+        font-size: 7em;
         letter-spacing: -7px;
         font-weight: 900;
     }
