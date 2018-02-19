@@ -82,10 +82,10 @@ publishdir = "../"
     [params.footer]
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
 
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = ["Warsaw", "Poland"]
+        [params.footer.legal]
+            title = "Legal"
+            privacypolicy = "[Privacy Policy](privacy-policy.html)"
+            useragreement = "[User Agreement](user-agreement.html)"
 
         [params.footer.social]
             title = "Around the web"
