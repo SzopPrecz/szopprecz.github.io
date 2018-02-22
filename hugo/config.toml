@@ -120,7 +120,7 @@ subtitle = "Nie zastanawiaj się czy zrobisz zakupy w tę niedzielę -- Szop Ci 
 [languages.pl.about]
 title = "O Aplikacji"
 left = "“SzopPrecz” to prosta aczkolwiek użyteczna aplikacja służąca do sprawdzania dostępności sklepów w Polsce. Od początku marca 2018, zgodnie z polskim prawem, większość sklepów będzie zamkniętych w wybrane niedziele i święta. Tym samym, powstaje problem i niepewność czy danego dnia zrobimy zakupy."
-right = "Na pomoc przybywa Szop Precz! Pozbądź się tej nieprzyjemnej niepewności i sprawdź dostępność sklepów! Możesz też ustawić powiadomienie o dniach, w kórych sklepy będą zamknięte oraz przeglądać terminy zamknięcia sklepów w 2018"
+right = "Na pomoc przybywa Szop Precz! Pozbądź się tej nieprzyjemnej niepewności i sprawdź dostępność sklepów! Możesz też ustawić powiadomienie o dniach, w kórych sklepy będą zamknięte oraz przeglądać terminy zamknięcia sklepów w 2018."
 
 [languages.pl.about.button]
 link = "//itunes.apple.com/pl/app/szop-precz/id1348257936?ls=1&mt=8"
