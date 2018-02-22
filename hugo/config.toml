@@ -10,6 +10,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "../"
 
+DefaultContentLanguage = "en"
+
 [params]
 
     # You can use Markdown syntax for urls [text](//url.to/source) for
@@ -104,3 +106,72 @@ publishdir = "../"
         [params.footer.credits]
             title = "About Author"
             text = "SzopPrecz is created by [Aleksander Zubala](//zubala.com)"
+
+[languages]
+
+[languages.pl]
+title = "SzoPrecz - zakaz handlu w niedziele nie straszny"
+name = "SzopPrecz"
+description = "SzopPrecz -- to prosta aczkolwiek użyteczna aplikacja służąca do sprawdzania dostępności sklepów w Polsce."
+
+[languages.pl.header]
+subtitle = "Nie zastanawiaj się czy zrobisz zakupy w tę niedzielę -- Szop Ci przypomni!"
+
+[languages.pl.about]
+title = "O Aplikacji"
+left = "“SzopPrecz” to prosta aczkolwiek użyteczna aplikacja służąca do sprawdzania dostępności sklepów w Polsce. Od początku marca 2018, zgodnie z polskim prawem, większość sklepów będzie zamkniętych w wybrane niedziele i święta. Tym samym, powstaje problem i niepewność czy danego dnia zrobimy zakupy."
+right = "Na pomoc przybywa Szop Precz! Pozbądź się tej nieprzyjemnej niepewności i sprawdź dostępność sklepów! Możesz też ustawić powiadomienie o dniach, w kórych sklepy będą zamknięte oraz przeglądać terminy zamknięcia sklepów w 2018"
+
+[languages.pl.about.button]
+link = "//itunes.apple.com/pl/app/szop-precz/id1348257936?ls=1&mt=8"
+icon = "fab fa-apple"
+text = "AppStore"
+
+[languages.pl.contact]
+title = "Kontakt"
+
+# 'error' defines error messages for invalid inputs
+[languages.pl.contact.form.name]
+text = "Imię"
+error = "Podaj swoje imię"
+
+[languages.pl.contact.form.email]
+text = "Adres E-mail"
+error = "Podaj swój adres e-mail"
+
+[languages.pl.contact.form.message]
+text = "Kontakt"
+error = "Podaj treść wiadomości"
+
+[languages.pl.contact.form.button]
+text = "Wyślij"
+
+[languages.pl.footer]
+copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+
+[languages.pl.footer.legal]
+title = "Informacje Prawne"
+privacypolicy = "[Privacy Policy](privacy-policy.html)"
+useragreement = "[User Agreement](user-agreement.html)"
+
+[languages.pl.footer.social]
+title = "Portale Społecznościowe"
+# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+# for more icons. The icons are represented by their corresponding
+# CSS class.
+[[languages.pl.footer.social.networks]]
+    icon = "fa-facebook"
+    link = "//facebook.com/SzopPrecz"
+
+[[languages.pl.footer.social.networks]]
+    icon = "fa-twitter"
+    link=  "//twitter.com/SzopPrecz"
+
+
+[languages.pl.footer.credits]
+title = "Autor"
+text = "SzopPrecz jest tworzony przez [Aleksandra Zubala](//zubala.com)"
+
+
+
+
